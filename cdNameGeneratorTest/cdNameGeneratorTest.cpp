@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 repeatWithAnotherFile:
-
+    
     int option;
     std::cout << "1: Male" << endl << "2: Female" << endl << "3: Events" << endl;
     cin >> option;
@@ -59,6 +59,7 @@ repeat:
     cout << "1: Repeat" << endl << "2: Repeat with another file" << endl << "3: Exit" << endl;
     cin >> finalOption;
 
+    // Goto sucks dude. Need to remove it with a while true loop lol
     if (finalOption == "1")
     {
         goto repeat;
