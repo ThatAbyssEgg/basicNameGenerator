@@ -12,6 +12,7 @@ int main()
 {
 repeatWithAnotherFile:
 
+    cout << "github_commit_test_change";
     int option;
     std::cout << "1: Male" << endl << "2: Female" << endl << "3: Events" << endl;
     cin >> option;
